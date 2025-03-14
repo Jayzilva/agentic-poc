@@ -1,0 +1,10 @@
+{
+  "status": "no_file",
+  "message": "Placeholder in case resume parsing fails",
+  "resume_data": {
+    "skills": [],
+    "work_experience": [],
+    "education": [],
+    "certifications": []
+  }
+}

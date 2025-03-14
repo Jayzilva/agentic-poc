@@ -1,0 +1,14 @@
+{
+  "status": "partial",
+  "message": "Created from direct user input due to processing error",
+  "basic_info": {
+    "name": "jayath de silva",
+    "education": "bsc software engineer",
+    "institute": "plymouth university",
+    "description": "associate software engineer"
+  },
+  "social_media": {
+    "linkedin": "https://lk.linkedin.com/in/jayathsilva",
+    "twitter": "https://x.com/jayathdesilva"
+  }
+}

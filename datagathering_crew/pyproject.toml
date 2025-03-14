@@ -1,0 +1,25 @@
+[project]
+name = "datagathering_crew"
+version = "0.1.0"
+description = "datagathering-crew using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.102.0,<1.0.0",
+    "python-docx>=0.8.11,<1.0.0",
+    "PyPDF2>=3.0.0,<4.0.0"
+]
+
+[project.scripts]
+datagathering_crew = "datagathering_crew.main:run"
+run_crew = "datagathering_crew.main:run"
+train = "datagathering_crew.main:train"
+replay = "datagathering_crew.main:replay"
+test = "datagathering_crew.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

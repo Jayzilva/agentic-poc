@@ -1,0 +1,55 @@
+user_data_collection_task:
+  description: >
+    Collect and organize the user information that has been provided as input. 
+    The user has provided their name: "{name}", educational background: "{education}", 
+    institute: "{institute}", and a brief description: "{description}".
+    Organize this information into a structured format. Do NOT make up or hallucinate any information.
+    Only use the exact values provided in the input variables.
+  expected_output: >
+    A structured JSON object containing the user's name, professional background, 
+    education details (institute and stream), and brief description - using ONLY 
+    the information provided in the input variables, with NO made-up information.
+  agent: data_gathering_agent
+
+social_media_analysis_task:
+  description: >
+    Analyze the user's LinkedIn profile at: "{linkedin_url}" and X.com (Twitter) profile at: "{twitter_url}".
+    Extract relevant professional and personal information from these exact profile URLs.
+    Identify skills, education, experience, achievements, and interests based on their profile content and interactions.
+    If any URL is missing or invalid, clearly state this in your output.
+  expected_output: >
+    A structured JSON object containing professional details from LinkedIn 
+    (skills, education, experience, achievements) and interests/affiliations 
+    from X.com interactions. Clearly indicate if any profiles couldn't be accessed.
+  agent: social_media_agent
+  dependencies: [user_data_collection_task]
+
+resume_parsing_task:
+  description: >
+    Try to analyze the user's resume from the file located at: "{resume_file}".
+    Use the appropriate document tool (DOCXSearchTool or PDFSearchTool) based on the file format
+    to extract information about skills, work experience, education, certifications, and other relevant details.
+    If no resume file was provided or the file can't be accessed, create an empty response and proceed.
+    This task is considered optional - if it fails, the workflow should continue.
+  expected_output: >
+    A structured JSON object containing the parsed resume information, organized 
+    by categories such as skills, work experience, education, and certifications.
+    If no resume could be processed, return an empty object with a status field explaining why.
+  agent: resume_parser_agent
+  dependencies: [user_data_collection_task]
+
+data_fine_tuning_task:
+  description: >
+    Combine and refine data from all previous tasks (user input, social media analysis, 
+    and resume parsing if available) to create a comprehensive user profile. 
+    Resume data may not be available - if it's missing, proceed with just the user input and social media data.
+    Remove duplications, resolve conflicts, and ensure the final profile is accurate, well-structured, 
+    and provides a holistic view of the individual. DO NOT add any information that was not 
+    collected in previous steps or make up any details.
+  expected_output: >
+    A final comprehensive JSON user profile that combines all gathered information 
+    into a clean, well-organized format that accurately represents the user's 
+    professional background, skills, education, and interests.
+  agent: data_fine_tuner_agent
+  dependencies: [user_data_collection_task, social_media_analysis_task]
+  output_file: user_profile.json

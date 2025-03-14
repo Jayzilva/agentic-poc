@@ -1,0 +1,57 @@
+JOB TITLE: Senior Data Engineer
+COMPANY: InnoTech Solutions Inc.
+LOCATION: San Francisco, CA (Hybrid - 2 days in office)
+SALARY RANGE: $140,000 - $180,000 per year
+JOB TYPE: Full-time
+
+ABOUT THE ROLE:
+We are looking for an experienced Senior Data Engineer to design, build, and maintain our data infrastructure and pipelines. You will work closely with our data science and analytics teams to ensure that data is accessible, reliable, and efficiently processed for business insights and machine learning applications.
+
+REQUIRED QUALIFICATIONS:
+- Bachelor's degree in Computer Science, Engineering, or related field (Master's preferred)
+- 5+ years of experience in data engineering roles
+- Strong proficiency in Python (5+ years)
+- Expert knowledge of SQL and experience with both relational and NoSQL databases
+- 3+ years of experience with cloud platforms (AWS required, GCP a plus)
+- Experience building and optimizing data pipelines, ETL processes, and workflows
+- Expertise in data modeling, data warehousing, and building high-performance data architecture
+- 2+ years of experience with big data technologies (Spark, Hadoop, Kafka)
+- Strong understanding of software engineering best practices (CI/CD, version control, testing)
+- Experience with containerization and orchestration tools (Docker, Kubernetes)
+
+PREFERRED QUALIFICATIONS:
+- Experience with real-time data processing systems
+- Knowledge of data governance and data security principles
+- Experience with ML/AI infrastructure and MLOps
+- Familiarity with data visualization tools (Tableau, Power BI, or similar)
+- Experience in a fast-paced tech startup environment
+- Contributions to open-source projects
+- Experience mentoring junior engineers
+
+RESPONSIBILITIES:
+- Design, build, and maintain scalable data infrastructure and data pipelines
+- Collaborate with data scientists and analysts to understand their data needs
+- Implement efficient ETL processes for data extraction, transformation, and loading
+- Optimize data systems for performance, reliability, and cost
+- Ensure data quality, integrity, and security across all systems
+- Develop and maintain documentation for data systems and processes
+- Work with stakeholders to translate business requirements into technical solutions
+- Stay current with emerging technologies and best practices in data engineering
+
+SOFT SKILLS:
+- Strong problem-solving and analytical thinking
+- Excellent communication and collaboration abilities
+- Proactive approach to identifying and resolving issues
+- Ability to work in a fast-paced, changing environment
+- Team player with the ability to work independently when needed
+
+BENEFITS:
+- Competitive salary and equity package
+- Comprehensive health, dental, and vision insurance
+- 401(k) matching
+- Flexible PTO policy
+- Professional development budget
+- Remote work flexibility
+- Modern office with amenities
+
+InnoTech Solutions Inc. is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. 

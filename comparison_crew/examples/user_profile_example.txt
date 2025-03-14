@@ -1,0 +1,47 @@
+Name: Sarah Chen
+Age: 29
+Location: San Francisco, CA
+
+EDUCATION:
+- Bachelor of Science in Computer Science, Stanford University (2016-2020)
+- Online certifications: AWS Solutions Architect, Google Cloud Professional Data Engineer
+
+TECHNICAL SKILLS:
+- Programming Languages: Python (4 years), JavaScript (3 years), Java (2 years)
+- Data Science: Pandas, NumPy, Scikit-learn, TensorFlow (3 years)
+- Cloud Technologies: AWS (S3, EC2, Lambda), GCP (2 years)
+- Databases: PostgreSQL, MongoDB (3 years)
+- DevOps: Docker, Kubernetes (basic), CI/CD pipelines (1 year)
+- Version Control: Git, GitHub
+
+SOFT SKILLS:
+- Project Management
+- Team Collaboration
+- Problem-solving
+- Communication
+- Time Management
+
+WORK EXPERIENCE:
+- Data Scientist at TechStart Inc. (2020-2022)
+  • Developed ML models for customer segmentation
+  • Implemented data pipelines using Python and AWS
+  • Collaborated with product teams on feature development
+
+- Junior Software Developer at InnovateSoft (2018-2020, part-time)
+  • Assisted in building web applications using React and Node.js
+  • Worked on database optimizations
+
+PROJECTS:
+- Personal Finance Tracker (GitHub): A web app built with React and Python backend
+- Image Recognition System: Computer vision project using TensorFlow
+- Community Forum: Full-stack web application with user authentication
+
+LANGUAGES:
+- English (Native)
+- Mandarin Chinese (Conversational)
+- Spanish (Basic)
+
+INTERESTS:
+- Open-source contribution
+- Tech meetups
+- Hiking and outdoor activities 
